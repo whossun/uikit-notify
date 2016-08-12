@@ -1,0 +1,21 @@
+{
+    "name": "whossun/uikit-notify",
+    "description": "uikit notify for laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "whossun",
+            "email": "whossun@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/support": ">=5.2.7",
+        "illuminate/session": ">=5.2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Whossun\\Notify\\": "src/"
+        }
+    }
+}
