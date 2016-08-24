@@ -2,9 +2,11 @@
 
 ### install
 
-Using Composer
+In order to install uikit-notify, just add
 
-    composer require whossun/uikit-notify
+> "whossun/uikit-notify": "dev-master"
+
+to your composer.json. Then run composer install or composer update.
 
 Add the service provider to `config/app.php`
 
