@@ -25,8 +25,7 @@ class NotifyServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app['notify'] = $this->app->share(function ($app)
-        {
+        $this->app->singleton('notify', function ($app) {
             return new Notify($app->session, $app->config);
         });
     }
