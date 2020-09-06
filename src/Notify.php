@@ -52,7 +52,7 @@ class Notify
                 $config = json_encode(array_merge($config, $message['options']));
             }
 
-            $script .= 'UIkit.notify("' . $message['message'] . '", ' . $config .')';
+            $script .= 'UIkit.notification("' . $message['message'] . '", ' . $config .')';
 
         }
 
